@@ -1,11 +1,17 @@
 {
-    "name": "ex-pj-http-js",
-    "version": "1.0.0",
-    "description": "My example project",
-    "main": "index.js",
-    "scripts": {
-        "test": "jest"
-    },
-    "author": "Author Name",
-    "license": "MIT"
+  "name": "ex-pj-http-js",
+  "version": "1.0.0",
+  "description": "Projeto de exemplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    // suas dependências aqui
+  },
+  "devDependencies": {
+    "jest": "^28.0.0"  // se estiver usando Jest para testes
+  },
+  "author": "Seu nome",
+  "license": "MIT"
 }
