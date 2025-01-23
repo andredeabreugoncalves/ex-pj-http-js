@@ -1,9 +1,11 @@
-- name: Install dependencies
-  run: |
-    cd app
-    npm install
-
-- name: Run tests
-  run: |
-    cd app
-    npm test
+{
+    "name": "ex-pj-http-js",
+    "version": "1.0.0",
+    "description": "My example project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Author Name",
+    "license": "MIT"
+}
