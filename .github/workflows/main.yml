@@ -23,5 +23,5 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
-      - name: Run server (Optional)
-        run: node server.js  #
+#      - name: Run server (Optional)
+#        run: node server.js  #
