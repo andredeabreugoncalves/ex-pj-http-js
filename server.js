@@ -1,10 +1,7 @@
-const http = require('http');
+const message = 'Hello world' // Try edit me
 
-const server = http.createServer((req, res) => {
-  res.writeHead(200, {'Content-Type': 'application/json'});
-  res.end(JSON.stringify({ message: 'Hello, World!' }));
-});
+// Update header text
+document.querySelector('#header').innerHTML = message
 
-server.listen(3000, () => {
-  console.log('Server is running on port 3000');
-});
+// Log to console
+console.log(message)
